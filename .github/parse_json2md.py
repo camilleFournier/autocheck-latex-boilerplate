@@ -23,7 +23,8 @@ def process(f, tex, revision):
         prev = file[:position]
         n = len(prev.split("\n"))
 
-        repo = 'https://github.com/Jacarte/autocheck-latex-boilerplate'
+        #repo = 'https://github.com/Jacarte/autocheck-latex-boilerplate'
+        repo = 'https://github.com/camilleFournier/Master-Thesis.2rc4.git'
 
         print(f"- [ ] [*{error}*]({repo}/blob/{revision}/{tex}#L{n}) {message}\n  {rule}")
         pass
